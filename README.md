@@ -12,14 +12,17 @@ To write a program to predict the profit of a city using the linear regression m
 1. Import necessary libraries.
 2. Define the linear regression function that:
       Adds a bias term to the feature matrix.
+   
       Initializes weights (theta) to zero.
+   
       Iteratively updates theta using gradient descent based on predictions and errors.
-3. Load the dataset using pandas.
-4. Extract features (X) and target (y) from the dataset and convert them to floats.
-5. Scale the features and target using StandardScaler.
-6. Train the linear regression model using the defined function to compute theta.
-7. Scale new data and use the computed theta to predict the target value.
-8. Inverse transform the prediction to obtain the actual value.
+   
+4. Load the dataset using pandas.
+5. Extract features (X) and target (y) from the dataset and convert them to floats.
+6. Scale the features and target using StandardScaler.
+7. Train the linear regression model using the defined function to compute theta.
+8. Scale new data and use the computed theta to predict the target value.
+9. Inverse transform the prediction to obtain the actual value.
 
 
 ## Program:
